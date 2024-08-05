@@ -13,7 +13,7 @@ body {
 
 .main-header > .nav {
     background: black;
-    width: 100%; /* если не указать width в 1000 px, то чёрная полоса будет выезжать за границы картинки */
+    width: 100%; /* если не указать width в 1000 px, то чёрная полоса будет выезжать за границу картинки */
 }
 
 .main-header > .nav > .nav-item > .nav-link {
@@ -47,7 +47,7 @@ body {
     height: 300px;
     background-image: url('../img/handbag1.jpg');
     background-repeat: no-repeat;
-    align-content: end;
+    align-content: end; /* not visible effect on mobile */
 }
 
 .grid-element-2 {
@@ -56,7 +56,7 @@ body {
     height: 300px;
     background-image: url('../img/breitling.jpg');
     background-repeat: no-repeat;
-    align-content: end;
+    align-content: end; /* not visible effect on mobile */
 }
 
 .grid-element-3 {
@@ -65,7 +65,7 @@ body {
     height: 300px;
     background-image: url('../img/shoes2.jpg');
     background-repeat: no-repeat;
-    align-content: end;
+    align-content: end; /* not visible effect on mobile */
 
 }
 
@@ -93,7 +93,7 @@ body {
 
 }
 
-.row {
+.row-one, .row{
     gap: 20px;
 }
 
@@ -145,7 +145,7 @@ body {
                              "one two three";
         gap: 50px;
         row-gap: 50px;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     } 
     .row-one {
