@@ -95,6 +95,8 @@ body {
 
 .row-one, .row{
     gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .row-one > div > .img-title {
@@ -151,5 +153,7 @@ body {
     .row-one {
         display: flex;
         gap: 20px;
+        padding: 20px;
     }
+    
 }
