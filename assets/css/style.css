@@ -89,14 +89,13 @@ body {
 }
 
 .row-one {
-    display: block;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .row-one, .row{
     gap: 20px;
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .row-one > div > .img-title {
