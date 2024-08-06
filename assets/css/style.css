@@ -146,8 +146,8 @@ body {
                              "one two three";
         gap: 50px;
         row-gap: 50px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
     } 
     /* .row-one {
         display: flex;
