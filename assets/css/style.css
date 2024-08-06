@@ -140,7 +140,7 @@ body {
 
 @media (min-width: 768px) {
 
-    .grid-container {
+    .row-one {
         display: grid;
         grid-template-areas: "zero zero zero"
                              "one two three";
@@ -149,11 +149,11 @@ body {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     } 
-    .row-one {
+    /* .row-one {
         display: flex;
         flex-direction: row;
         gap: 20px;
         padding: 20px;
     }
-    
+     */
 }
